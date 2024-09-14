@@ -1,6 +1,6 @@
 
 # MicPish
-**MicPish** is a Flask-based web application designed to capture Audio file (of 4sec) and gather IP-based geolocation data from users. It integrates with ssh tunnel to securely expose your local server to the internet, enabling external access.
+**MicPish** is a Flask-based web application designed to capture Audio file (of 4sec) and gather IP-based geolocation data from users. It integrates with SSH tunnel to securely expose your local server to the internet, enabling external access.
 
 ## Table of Contents
 
@@ -67,10 +67,10 @@ For Windows:
 ## Usage
 
 1. **Expose the Server**:
-   - The script will use the Portforwarding using the "ssh tunnel"
+   - The script will use the Portforwarding using the "SSH tunnel"
 
 2. **Access the Web Interface**:
-   - After starting the server, navigate to the provided URL and Send it to Victim(either local or the ssh tunnel public URL).
+   - After starting the server, navigate to the provided URL and Send it to Victim(either local or the SSH tunnel public URL).
 
 3. **Capture Data**:
    - The server captures images and logs IP-based geolocation data whenever a user accesses the `/` endpoint.
