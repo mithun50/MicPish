@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "
+cat << 'EOF'
 
                                                                             
 88b           d88  88              88888888ba   88             88           
@@ -12,8 +12,7 @@ echo "
 88    `888'    88  88  "8a,   ,aa  88           88  aa    ]8I  88       88  
 88     `8'     88  88   `"Ybbd8"'  88           88  `"YbbdP"'  88       88  
                                                                             
-                                                                            
-"
+EOF
 echo "Author: MithunGowda.B"
 echo "KANNADAGAMERSHUB&DEVELOPMENT"
 
