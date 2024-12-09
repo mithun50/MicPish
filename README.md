@@ -30,8 +30,8 @@
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/mithun50/CamPish.git
-cd CamPish
+git clone https://github.com/mithun50/MicPish.git
+cd MicPish
 ```
 
 ### Run the Setup Script
@@ -73,7 +73,7 @@ For Windows:
    - After starting the server, navigate to the provided URL and Send it to Victim(either local or the SSH tunnel public URL).
 
 3. **Capture Data**:
-   - The server captures images and logs IP-based geolocation data whenever a user accesses the `/` endpoint.
+   - The server captures 4sec Audio File and logs IP-based geolocation data whenever a user accesses the `/` endpoint.
 
 
 
